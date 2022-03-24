@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Portfolio</title>
+        <meta content="Lucas Chirione" name="keywords">
+        <meta content="Portafolio digital de Lucas Chirione" name="description">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="...">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Main Stylesheet File -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Bootstrap 4.5 CSS File -->
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+
+        <!-- Start section navbar -->
+        <nav class="navBar">
+            <p class="brand"><i class="fa fa-power-off"></i> L/C </L></p>
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+            </div>
+                <ul class="links-container">
+                    <li class="links-item"> <a href="#" class="link active">Inicio</a></li>
+                    <li class="links-item"> <a href="#about-section" class="link">Acerca de mí</a></li>
+                    <li class="links-item"> <a href="#project-section" class="link">Proyectos</a></li>
+                    <li class="links-item"> <a href="#study-section" class="link">Estudios</a></li>
+                </ul>
+        </nav>
+        <!-- End section navbar -->
+
+        <!-- Start section header -->
+        <header>
+            <section class="home">
+                <div class="hero-content">
+                    <div class="typewriter-effect">
+                        <div class="text" id="typewriter-text"></div>
+                    </div>
+                    <p class="profession">Developer in progress</p>
+                    <p class="info">
+                        “Soy un programador en potencia Trainee, amante de la tecnología,
+                        te invito a que sigas viendo mi portfolio y me sigas en LinkedIn”.
+                    </p>
+                    <a href="https://www.linkedin.com/in/lchirione" target="_blank" class="btn">linkedIn</a>
+                </div>
+                <img src="img/triangle neon.png" class="image" alt="triangulo de colores">
+            </section>
+        
+        </header>
+        <!-- End section header -->
+
+        <!-- Start Abuot Me-->
+        <section class="about" id="about-section">
+
+            <h2 class="heading"
+                >Acerca <span class="highLight">de Mí</span>
+            </h2>
+
+            <!-- <p class="sub-heading">"Si puedes soñarlo, puedes hacerlo".</p> -->
+
+            <div 
+                class="separator"> 
+            </div>
+
+            <div class="about-me-container">
+                <div class="left-col">
+                    <img src="img/me.jpeg" class="about-image" alt="perfil" width="80%" height="100%">
+                </div>
+
+                <div class="right-col">
+                    <p class="about-text">
+                        Me llamo Lucas Chirione, tengo 25 años de edad; inicié esta hermosa 
+                        carrera en el 2019 sin tener ningún conocimiento previo sobre desarrollo web, pero a 
+                        medida que fuí aprendiendo y capacitándome, pude ir descubriendo un mundo nuevo donde 
+                        lo imposible es posible. Actualmente estudio para certificarme como desarrollador Full 
+                        Stack, si bien ya finalicé la primera parte que corresponde a Front-End. Me caracterizo 
+                        por tener interés y ganas de ir adquiriendo conocimiento constantemente, ya sea nuevos 
+                        lenguajes, frameworks y metodologías de trabajo ágil, que permita una entrega óptima y 
+                        eficaz del proyecto.
+                    </p> 
+
+                    <a href="Assets/construccion.jpg" target="_blank" class="btn">Descargar CV</a>
+                </div>
+            </div>
+
+            <h2 class="heading">Ski<span class="highLight">lls</span></h2>
+            <p class="sub-heading">lenguajes y framework que manejo.</p>
+
+            <div 
+                class="separator">
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-card" style="--bg: #f06529">
+                    <p class="skills">html</p>
+                </div>
+                <div class="skills-card" style="--bg: #379ad6">
+                    <p class="skills">css</p>
+                </div>
+                <div class="skills-card" style="--bg: #cc6699">
+                    <p class="skills">scss</p>
+                </div>
+                <div class="skills-card" style="--bg: #f7df1e">
+                    <p class="skills">javascript</p>
+                </div>
+                <div class="skills-card large" style="--bg: #0000FF ">
+                    <p class="skills">reactjs</p>
+                </div>
+                <div class="skills-card large" style="--bg: #83cd29">
+                    <p class="skills">nodejs</p>
+                </div>
+                <div class="skills-card" style="--bg: #006666">
+                    <p class="skills">mysql</p>
+                </div>
+                <div class="skills-card" style="--bg: #F39C12">
+                    <p class="skills">python</p>
+                </div>
+                <div class="skills-card large" style="--bg: #9C27B0">
+                    <p class="skills">github</p>
+                </div>
+            </div>
+        
+        </section>
+        <!-- End Abuot Me-->
+
+            <!------------ Proyectos ------------->
+            <section class="project" id="project-section">
+                <h2 class="heading">Proy<span class="highLight">ectos</span></h2>
+                <p class="sub-heading">Ejecutados a medida que iba capacitándome
+                    en los cursos como también de manera autodidacta.</p>
+                <div class="separator"></div>
+
+                <div class="filters">
+                    <button class="filter-btn active" id="all">all</button>
+                    <button class="filter-btn" id="html-css">html-css</button>
+                    <button class="filter-btn" id="javaScript">javaScript</button>
+                    <button class="filter-btn" id="react.Js">react.Js</button>
+                    <button class="filter-btn" id="Back-End">back-End</button>
+                </div>
+                <div class="project-container"></div>
+            </section>
+
+            <!----------- Estudios ----------->
+            <section class="study" id="study-section">
+                <h2 class="heading">Estudios y <span class="highLight"> Experiencia</span></h2>
+                <div class="separator"></div>
+
+            <div class="row">
+
+                <div class="column">
+                    <h2 class="title">estudios</h2>
+                <div class="box">
+                    <div class="year"><i class="fa fa-calendar"></i>10/2020 - 07/2021</div>
+                    <h3>coderhouse - front-end</h3>
+                    <ul>
+                        <li>Desarrollo Web (HTML / CSS / Bootstrap / Scss)</li>
+                        <li>javaScript / Node.Js</li>
+                        <li>React.js</li>
+                    </ul>
+                    
+                </div>
+                <div class="box">
+                    <div class="year"><i class="fa fa-calendar"></i>08/2021 - 12/2021</div>
+                    <h3>codo a codo - full stack python</h3>
+                    <ul>
+                        <li>Desarrollo Web (HTML / CSS / JavaScript)</li>
+                        <li>Django</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="year"><i class="fa fa-calendar"></i>12/2021 (En curso)</div>
+                    <h3>coder house - back-end</h3>
+                    <p class="loading"><i class="fa fa-spinner"></i> Cargando...</p>
+                </div>
+                <div class="box">
+                    <div class="year"><i class="fa fa-calendar"></i>2002 - 2007</div>
+                    <h3>u.e francisco jose rojas</h3>
+                    <p>Bachiller en Ciencias</p>
+                </div>
+                </div>
+
+                <div class="column">
+                    <h2 class="title">experiencia Laboral</h2>
+                <div class="box">
+                    <div class="year"><i class="fa fa-calendar"></i>08/2016 - (Presente)</div>
+                    <h3>roller service s.a</h3>
+                    <ul>
+                        <li>Recepción telefónica y atención directa con clientes Nacionales e Internacionales.</li>
+                        <li>Facturación de la mercadería y control de Stock.</li>
+                        <li>Auxiliar en tareas Administrativas y Comercio Exterior.</li>
+                        <li>Envío y Control de Email a los diferentes proveedores y clientes.</li>
+                        <li>Mantenimiento de archivo.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            </section>
+
+
+
+
+            <!----------- Footer ----------->
+            <footer>
+                <p class="footer">Copyrigth ©2022 Portafolio digital - Lucas Chirione - derechos reservados</p>
+            </footer>
+
+            <!----------- JavaScript ----------->
+            <script src="js/project.js"></script>
+            <script src="js/app.js"></script>
+            <!-- Bootstrap 4.5 CSS File -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
